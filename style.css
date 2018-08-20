@@ -1,0 +1,35 @@
+
+#blog-display {
+    
+    margin-top: 30px;
+
+}
+
+#blog-display .container {
+    background-color: #cde9ef;
+    
+}
+
+h6 {
+ font-weight:bold;   
+}
+
+.wanker {
+    /* Full-screen takeover… */
+    background: #000;
+    color: #FFF;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2014;
+  }
+  
+  .wanker-content {
+    /* Additional design… */
+    background:gray;
+    color:yellow;
+    height: 50%;
+  }

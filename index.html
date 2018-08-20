@@ -1,0 +1,276 @@
+<<!DOCTYPE html>
+  <html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Assignment 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.fakeloader@1.0.0/dist/jquery.fakeloader.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.26.11/sweetalert2.min.css">
+    <link rel="stylesheet" href="justifiedGallery/justifiedGallery.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gifplayer@0.3.3/dist/gifplayer.css">
+  </head>
+
+  <body>
+    <div id="fakeLoader"></div>
+    <header>
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h4 class="text-white">My jQuery Plugins Playground</h4>
+            <span class="text-muted">
+              <ul>
+                <li>Plugin 1: ScrollReveal - Content appears slowly when mouse scrolling down</li>
+                <li>Plugin 1</li>
+                <li>Plugin 1</li>
+                <li>Plugin 1</li>
+              </ul>
+            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/image 1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/image 2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/image 3.jpeg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div id="mygallery">
+        <a href="img/card image 1.jpg">
+          <img alt="card image 1" src="img/card image 1.jpg" />
+        </a>
+        <a href="img/card image 2.jpeg">
+          <img alt="card image 2" src="img/card image 2.jpeg" />
+        </a>
+        <a href="img/card image 3.jpg">
+          <img alt="card image 3" src="img/card image 3.jpg" />
+        </a>
+        <a href="img/wild 1.jpeg">
+          <img alt="wild image 1" src="img/wild 1.jpeg" />
+        </a>
+        <a href="img/wild 2.jpeg">
+          <img alt="wild image 2" src="img/wild 2.jpeg" />
+        </a>
+        <a href="img/wild 3.jpeg">
+          <img alt="wild image 3" src="img/wild 3.jpeg" />
+        </a>
+        <a href="img/wild 4.jpeg">
+          <img alt="wild image 4" src="img/wild 4.jpeg" />
+        </a>
+        <a href="img/wild 5.jpg">
+          <img alt="wild image 5" src="img/wild 5.jpg" />
+        </a>
+        <a href="img/wild 7.jpg">
+          <img alt="wild image 7" src="img/wild 7.jpg" />
+        </a>
+        <a href="img/wild 8.jpg">
+          <img alt="wild image 8" src="img/wild 8.jpg" />
+        </a>
+        <a href="img/wild 9.png">
+          <img alt="wild image 9" src="img/wild 9.png" />
+        </a>
+        <a href="img/wild 10.jpg">
+          <img alt="wild image 10" src="img/wild 10.jpg" />
+        </a>
+      </div>
+    </section>
+    <section>
+      <img class="gif" data-gif="./img/penguin-gotham-gif-12.gif" src="https://i.pinimg.com/originals/6c/80/90/6c809044285c8e492d78125834b77195.gif">/>
+    </section>
+
+    <section>
+      <div id="blog-display">
+
+        <div class="container">
+
+          <h6>Some kind of title this is a dummy text</h6>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis faucibus est, quis porttitor odio suscipit sit
+            amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla scelerisque
+            pretium magna id imperdiet. Nam faucibus quam lorem, in dapibus dui feugiat ac. Nunc tempus hendrerit elit, nec
+            commodo elit ornare eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <br/>
+          <p>Aliquam egestas ac nunc a suscipit. Mauris a tempor felis. Integer sollicitudin malesuada metus eget venenatis.
+            Morbi vitae diam sapien. Maecenas elit arcu, eleifend nec pharetra at, ultrices sed libero. Mauris purus magna,
+            porttitor vitae lectus molestie, mollis malesuada nulla. In turpis nulla, faucibus quis urna at, rhoncus aliquam
+            urna. Vivamus dapibus orci ut lacus suscipit, nec scelerisque magna mollis. Sed euismod tellus id orci dignissim
+            tincidunt.
+          </p>
+          <br/>
+          <p>Aliquam lectus felis, pellentesque et nisl ut, blandit mattis neque. Sed nec lacinia est. Cras nec dui sagittis
+            felis convallis semper at vel ante. Nullam at nunc rutrum, vehicula lorem eu, eleifend nisl. Duis sodales metus
+            leo, nec vulputate leo faucibus a. Suspendisse gravida quam quis risus elementum, eget vehicula neque vehicula.
+            Pellentesque tincidunt sagittis est, in vestibulum felis rhoncus vitae.
+          </p>
+
+        </div>
+
+
+      </div>
+
+
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="card-columns">
+          <div class="card">
+            <img class="card-img-top" src="./img/card image 1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title that wraps to a new line</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
+                a little bit longer.</p>
+              <button type="button" class="btn btn-primary" onclick="SweetAlert()">Click Here</button>
+            </div>
+          </div>
+          <div class="card p-3">
+            <blockquote class="blockquote mb-0 card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Someone famous in
+                  <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./img/card image 2.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+              <button type="button" class="btn btn-primary" onclick="SweetAlert()">Click Here</button>
+            </div>
+          </div>
+          <div class="card bg-primary text-white text-center p-3">
+            <blockquote class="blockquote mb-0">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+              <footer class="blockquote-footer">
+                <small>
+                  Someone famous in
+                  <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="./img/card image 3.jpeg" alt="Card image">
+          </div>
+          <div class="card p-3 text-right">
+            <blockquote class="blockquote mb-0">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Someone famous in
+                  <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it
+                slightly taller overall.</p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wanker" data-wanker>
+        <div class="wanker-content">
+          <h1>The web was meant to be read, not squished.</h1>
+          <p>Prevent excessive browser resizing and get people back to reading.</p>
+          <img class="bean-image" src="./img/Bean.jpeg" alt="Bean image">
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.fakeloader@1.0.0/dist/jquery.fakeloader.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.26.11/sweetalert2.all.min.js"></script>
+    <script src="justifiedGallery/jquery.justifiedGallery.min.js"></script>
+    <script src="wankerjs/jquery.wanker.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gifplayer@0.3.3/dist/jquery.gifplayer.min.js"></script>
+    <script>
+      $("#fakeLoader").fakeLoader();
+      ScrollReveal().reveal('.card', { delay: 600, duration: 1200 });
+      function SweetAlert() {
+        swal({
+          title: 'Congratulations',
+          text: 'Have a great day',
+          type: 'Awesome',
+          confirmButtonText: 'Cool'
+        })
+      }
+
+      $(function () {
+        $('[data-wanker]').wanker({ delay: 0, duration: 5000 });
+      });
+
+    $('.gif').gifplayer();
+    </script>
+
+  </body>
+
+  </html>
